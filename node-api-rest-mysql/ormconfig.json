@@ -1,0 +1,13 @@
+{
+  "type": "mysql",
+  "host": "localhost",
+  "port": 3306,
+  "username": "breyes",
+  "password": "11200173",
+  "database": "demo",
+  "synchronize": true,
+  "logging": false,
+  "entities": [
+      "src/adapter/out/mysql/entity/*.ts"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "node-api-rest-mysql",
+  "version": "1.0.0",
+  "description": "NodeJS Backend API Rest with MySQL integration",
+  "main": "index.ts",
+  "scripts": {
+    "start": "nodemon --config nodemon.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "student",
+    "mysql",
+    "rest",
+    "node",
+    "express"
+  ],
+  "author": "Brayan Reyes",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.4.0",
+    "tslog": "^3.3.1",
+    "typeorm": "^0.2.41",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "nodemon": "^2.0.15"
+  }
+}
